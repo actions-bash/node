@@ -1,0 +1,16 @@
+name: 'Bash Action - node'
+description: 'A Bash Action template using Node.js.'
+
+inputs:
+  name:
+    description: 'Name of thing'
+    required: false
+    default: 'World'
+
+outputs:
+  time:
+    description: 'Current time'
+
+runs:
+  using: 'node16'
+  main: 'index.js'
